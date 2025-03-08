@@ -37,7 +37,7 @@ export default function Slider() {
   
 
   const handleSkip = () => {
-    router.navigate("/(onboarding)/LastScreen")
+    router.navigate("/(onboarding)/AuthScreen")
   };
 
   return (
@@ -53,7 +53,7 @@ export default function Slider() {
         entering={FadeInRight}
         exiting={FadeOutDown}
         source={onBoardingData[currentIndex].image}
-        className=""
+        
       />
 
       {/* Text Content */}

@@ -12,7 +12,14 @@ export default function RootLayout() {
           animation: "flip",
         }}
       />
-     
+      <Stack.Screen
+        name="(auth)"
+        options={{
+          headerShown: false,
+          contentStyle: { backgroundColor: "transparent" },
+          animation: "flip",
+        }}
+      />
     </Stack>
   );
 }
